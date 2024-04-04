@@ -1,9 +1,9 @@
 pipeline{
       agent any
         stages{
-            stage("stage-1"){
+            stage ("stage-1"){
 
-             stesps{
+             steps{
                  echo "this is the master branch"
   }      
 
